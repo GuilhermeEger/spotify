@@ -1,0 +1,42 @@
+.mainPageBody {
+    display: flex;
+    height: 100%;
+    gap: 10px;
+}
+
+.LeftSet {
+    width: 25%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 15% 85%;
+    overflow: hidden;
+}
+
+.middleSet {
+    width: 70%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 7px;
+}
+
+.rightSet {
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+
+.mainMenu{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+.library {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
