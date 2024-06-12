@@ -7,40 +7,39 @@
 }
 
 .LeftSet {
-    width: 25%;
+    width: 25vw;
     height: 100%;
     display: grid;
     gap: 10px;
     grid-template-rows: 15% 85%;
-    overflow: hidden;
 }
 
 .middleSet {
     width: 70%;
     height: 100%;
-    background-color: #666;
+    background-color: #121212;
     border-radius: 7px;
 }
 
 .rightSet {
     width: 25%;
     height: 100%;
-    background-color: #666;
+    background-color: #121212;
     border-radius: 7px;
 }
 
 .mainMenu{
     height: 100%;
     width: 100%;
-    background-color: #666;
+    background-color: #121212;
     border-radius: 7px;
     padding: 20px;
     display: grid;
 }
 
 .library {
-    background-color: #666;
-    width: 100%;
+    background-color: #121212;
+    width: 25vw;
     height: 100%;
     border-radius: 7px;
     padding: 20px;

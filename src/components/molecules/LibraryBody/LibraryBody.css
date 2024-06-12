@@ -1,0 +1,18 @@
+.ml_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ml_itemsBody {
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+    height: 50vh;
+    overflow-x: auto;
+}
+
+.ml_mainDiv {
+    margin-top: 20px;
+}
+

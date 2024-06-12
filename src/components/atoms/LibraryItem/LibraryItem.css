@@ -1,0 +1,20 @@
+.li_image {
+    width: 70px;
+    height: 70px;
+    background: aquamarine;
+    border-radius: 10px;
+}
+
+.li_main {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.li_title {
+    font-weight: bold;
+}
+
+.li_info {
+    font-size: 15px;
+}

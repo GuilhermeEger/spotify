@@ -3,6 +3,8 @@ import { MdSearch } from "react-icons/md";
 import { MdLibraryMusic } from "react-icons/md";
 import { MdAdd } from "react-icons/md";
 import { MdArrowForward } from "react-icons/md";
+import { MdOutlineList } from "react-icons/md";
+
 
 
 type IconMap = {
@@ -14,7 +16,8 @@ const iconMap: IconMap = {
     search: <MdSearch />,
     library: <MdLibraryMusic />,
     add: <MdAdd />,
-    forwardArrow: <MdArrowForward />
+    forwardArrow: <MdArrowForward />,
+    list: <MdOutlineList />
 }
 
 export default iconMap;
