@@ -1,10 +1,11 @@
-import Icon from '@/components/atoms/Icon/Icon';
+import MenuItem from '@/components/molecules/MenuItem/MenuItem';
 import { FC } from 'react';
 
 type Props = {};
 const Menu: FC<Props> = ({ }) => {
     return <>
-        <Icon name="home" />
+        <MenuItem iconName="home" label="Home" />
+        <MenuItem iconName="search" label="Search" />
     </>;
 };
 export default Menu;

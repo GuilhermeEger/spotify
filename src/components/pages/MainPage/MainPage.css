@@ -18,28 +18,30 @@
 .middleSet {
     width: 70%;
     height: 100%;
-    background-color: bisque;
+    background-color: #666;
     border-radius: 7px;
-    border-radius: ;
 }
 
 .rightSet {
     width: 25%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: #666;
     border-radius: 7px;
 }
 
 .mainMenu{
     height: 100%;
     width: 100%;
-    background-color: aqua;
+    background-color: #666;
     border-radius: 7px;
+    padding: 20px;
+    display: grid;
 }
 
 .library {
-    background-color: blanchedalmond;
+    background-color: #666;
     width: 100%;
     height: 100%;
     border-radius: 7px;
+    padding: 20px;
 }

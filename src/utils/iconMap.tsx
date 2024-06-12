@@ -1,5 +1,8 @@
-import { PiHouseBold } from "react-icons/pi";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+import { MdHomeFilled } from "react-icons/md";
+import { MdSearch } from "react-icons/md";
+import { MdLibraryMusic } from "react-icons/md";
+import { MdAdd } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 
 
 type IconMap = {
@@ -7,8 +10,11 @@ type IconMap = {
 };
 
 const iconMap: IconMap = {
-    home: <PiHouseBold />,
-    search: <PiMagnifyingGlassBold />
+    home: <MdHomeFilled />,
+    search: <MdSearch />,
+    library: <MdLibraryMusic />,
+    add: <MdAdd />,
+    forwardArrow: <MdArrowForward />
 }
 
 export default iconMap;
