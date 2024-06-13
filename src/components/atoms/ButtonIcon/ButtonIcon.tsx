@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import "./ButtonIcon.css"
+import "./ButtonIcon.css";
 import Icon from '../Icon/Icon';
 
 type Props = {

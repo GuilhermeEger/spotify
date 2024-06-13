@@ -2,7 +2,7 @@
 
 import Icon from '@/components/atoms/Icon/Icon';
 import { FC, useState } from 'react';
-import "./Library.css"
+import "./Library.css";
 import LibraryBody from '@/components/molecules/LibraryBody/LibraryBody';
 
 type Props = {};
