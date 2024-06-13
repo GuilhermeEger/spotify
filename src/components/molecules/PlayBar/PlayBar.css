@@ -24,7 +24,8 @@
     align-items: center;
     justify-content: end;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
 }
 
 .pb_playBar {
@@ -41,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
     color:#b3b3b3;
     gap: 20px;
 }
@@ -51,18 +52,18 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .pb_songDurationBar {
     width: 100%;
     background-color: #212121;
-    height: 7px;
+    height: 5px;
     border-radius: 5px;
 }
 
 .pb_songBar{
-    height: 7px;
+    height: 5px;
     background: #b3b3b3;
     border-radius: 5px;
 }
@@ -75,7 +76,7 @@
 }
 
 .pb_playButton {
-    font-size: 55px;
+    font-size: 40px;
     transition: 0.5s;
 }
 
