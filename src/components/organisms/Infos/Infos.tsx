@@ -12,8 +12,8 @@ const Infos: FC<Props> = ({ }) => {
     <div className='infoHeader'>
       <div className='infoTitle'>Mac Miller</div>
       <div className='infoHeaderActions'>
-        <Icon name="moreHorizontal" />
-        <Icon name="close" />
+        <Icon className='infoHeaderIcon' name="moreHorizontal" />
+        <Icon className='infoHeaderIcon' name="close" />
       </div>
     </div>
     <div>

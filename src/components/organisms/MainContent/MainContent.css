@@ -84,3 +84,16 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+
+.actionArrow {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionArrow:hover {
+  background-color: #85abb2;
+}

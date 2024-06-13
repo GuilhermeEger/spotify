@@ -16,3 +16,13 @@
 .infoTitle {
     font-weight: bold;
 }
+
+.infoHeaderIcon {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.infoHeaderIcon:hover {
+    background-color: #212121
+  }

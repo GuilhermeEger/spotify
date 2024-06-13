@@ -57,8 +57,8 @@ const MainContent: FC<Props> = ({ }) => {
     return <>
         <div className='mc_header'>
             <div className='mc_headerArrows'>
-                <Icon name="backArrowIos" />
-                <Icon name="forwardArrowIos" />
+                <Icon className='actionArrow' name="backArrowIos" />
+                <Icon className='actionArrow' name="forwardArrowIos" />
             </div>
             <div className='mc_actions'>
                 <Icon className="mc_actionIcon" name="notifications" />
