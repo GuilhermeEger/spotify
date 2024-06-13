@@ -1,0 +1,23 @@
+.ai_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai_artistName {
+    font-weight: bold;
+}
+
+.ai_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai_mainWraper {
+    padding: 20px;
+    background-color: var(--buttonBackground);
+    border-radius: 10px;
+    font-size: 15px;
+    display: grid;
+    gap: 20px;
+    margin-top: 40px;
+}

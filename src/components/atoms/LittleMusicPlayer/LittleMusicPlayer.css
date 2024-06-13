@@ -1,0 +1,29 @@
+.lmp_musicImage {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+}
+
+.lmp_mainWraper {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 20px;
+    background-color: var(--buttonBackground);
+    border-radius: 10px;
+    font-size: 15px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.lmp_musicTitle {
+    font-weight: bold;
+}
+
+.lmp_musicInfo {
+    display: grid;
+}
+
+.lmp_artistName {
+    font-size: 15px;
+}

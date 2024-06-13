@@ -11,7 +11,7 @@ import { MdGroups } from "react-icons/md";
 import { MdOutlinePerson } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 import { MdMoreHoriz } from "react-icons/md";
-
+import { MdMusicNote } from "react-icons/md";
 
 
 type IconMap = {
@@ -31,7 +31,8 @@ const iconMap: IconMap = {
     groups: <MdGroups />,
     person: <MdOutlinePerson />,
     close: <MdClose />,
-    moreHorizontal: <MdMoreHoriz />
+    moreHorizontal: <MdMoreHoriz />,
+    musicNote: <MdMusicNote />
 }
 
 export default iconMap;

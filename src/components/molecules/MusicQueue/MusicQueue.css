@@ -1,0 +1,14 @@
+.mq_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mq_mainWraper {
+    padding: 20px;
+    background-color: var(--buttonBackground);
+    border-radius: 10px;
+    font-size: 15px;
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}

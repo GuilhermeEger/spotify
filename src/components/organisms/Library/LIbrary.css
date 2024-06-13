@@ -34,7 +34,7 @@
     padding: 10px;
     color: white;
     font-weight: bold;
-    background: #535353;
+    background: var(--buttonBackground);
     border-radius: 50px;
     font-size: 15px;
 }
