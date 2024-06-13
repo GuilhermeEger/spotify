@@ -1,6 +1,16 @@
-.menuBody {
+.mi_body {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+    color: #b3b3b3
+  }
+
+  .mi_icon {
+    font-size: 30px;
   }
   
+
+  .mi_body:hover {
+    color: white;
+  }

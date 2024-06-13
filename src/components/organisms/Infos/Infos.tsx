@@ -10,7 +10,7 @@ type Props = {};
 const Infos: FC<Props> = ({ }) => {
   return <>
     <div className='infoHeader'>
-      <div>Title</div>
+      <div className='infoTitle'>Mac Miller</div>
       <div className='infoHeaderActions'>
         <Icon name="moreHorizontal" />
         <Icon name="close" />

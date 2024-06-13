@@ -12,6 +12,12 @@ import { MdOutlinePerson } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 import { MdMoreHoriz } from "react-icons/md";
 import { MdMusicNote } from "react-icons/md";
+import { MdOutlineShuffle } from "react-icons/md";
+import { MdSkipPrevious } from "react-icons/md";
+import { MdSkipNext } from "react-icons/md";
+import { MdOutlinePlayCircleFilled } from "react-icons/md";
+import { MdRepeat } from "react-icons/md";
+import { MdVolumeUp } from "react-icons/md";
 
 
 type IconMap = {
@@ -19,6 +25,12 @@ type IconMap = {
 };
 
 const iconMap: IconMap = {
+    volume: <MdVolumeUp />,
+    repeat: <MdRepeat />,
+    playFilled: <MdOutlinePlayCircleFilled />,
+    playerNext: <MdSkipNext />,
+    playerPrev: <MdSkipPrevious />,
+    shuffle: <MdOutlineShuffle />,
     home: <MdHomeFilled />,
     search: <MdSearch />,
     library: <MdLibraryMusic />,

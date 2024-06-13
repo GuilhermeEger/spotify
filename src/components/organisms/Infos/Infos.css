@@ -12,3 +12,7 @@
     justify-self: center;
     gap: 10px
 }
+
+.infoTitle {
+    font-weight: bold;
+}

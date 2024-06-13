@@ -13,8 +13,15 @@
 
 .li_title {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .li_info {
     font-size: 15px;
+    cursor: pointer;
+}
+
+.li_title:hover,
+.li_info:hover{
+    text-decoration: underline;
 }

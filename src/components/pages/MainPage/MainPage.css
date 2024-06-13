@@ -20,6 +20,7 @@
     background-color: #121212;
     border-radius: 7px;
     position: relative;
+    min-width: 600px;
 }
 
 .rightSet {
@@ -28,7 +29,9 @@
     background-color: #121212;
     border-radius: 7px;
     padding: 20px;
-    min-width: 280px
+    min-width: 280px;
+    padding-bottom: 90px;
+    overflow-x: auto;
 }
 
 .mainMenu{

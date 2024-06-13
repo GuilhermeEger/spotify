@@ -7,13 +7,20 @@
 .bi_main {
     width: 100%;
     display: grid;
-    gap: 6px;
+    gap: 20px;
 }
 
 .bi_title {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .bi_subTitle {
     font-size: 18px;
+    cursor: pointer;
+}
+
+.bi_title:hover,
+.bi_subTitle:hover {
+    text-decoration: underline;
 }

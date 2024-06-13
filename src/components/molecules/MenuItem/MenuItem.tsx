@@ -8,9 +8,9 @@ type Props = {
 };
 const MenuItem: FC<Props> = ({ iconName, label }) => {
     return (
-        <div className='menuBody'>
-            <Icon name={iconName} />
-            <div className='menuLabel'>{label}</div>
+        <div className='mi_body'>
+            <Icon className="mi_icon" name={iconName} />
+            <div className='mi_label'>{label}</div>
         </div>)
 };
 export default MenuItem;

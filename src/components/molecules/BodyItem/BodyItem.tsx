@@ -15,8 +15,10 @@ const BodyItem: FC<Props> = ({ title, subtitle, imgSrc }) => {
                 className='bi_image'
                 src={imgSrc}
                 alt="Picture of the author" />
-            <div className='bi_title'>{title}</div>
-            <div className='bi_subTitle'>{subtitle}</div>
+            <div>
+                <div className='bi_title'>{title}</div>
+                <div className='bi_subTitle'>{subtitle}</div>
+            </div>
         </div>
     )
 };

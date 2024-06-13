@@ -4,7 +4,7 @@ import Icon from '@/components/atoms/Icon/Icon';
 import { FC, useEffect, useState } from 'react';
 import './MainContent.css';
 import Image from 'next/image';
-import music1 from '../../../../public/music1.jpg';
+import music1 from '../../../../public/music2.jpg';
 import BodyItem from '@/components/molecules/BodyItem/BodyItem';
 import { StaticImageData } from "next/image"
 import linkingPark from '../../../../public/linkinPark.jpg';
@@ -42,7 +42,7 @@ const MainContent: FC<Props> = ({ }) => {
                 imgSrc: macMiller
             }, {
                 title: "Mixtape 3",
-                subtitle: "Australian best musics",
+                subtitle: "Australian bests",
                 imgSrc: rihanna
             }, {
                 title: "Mixtape 4",
@@ -79,7 +79,7 @@ const MainContent: FC<Props> = ({ }) => {
         </div>
         <div className='mc_mainWrap'>
             <div className='mc_bodyContent'>
-                <h1 className='mc_bodyContentTittle'>Lofi</h1>
+                <h1 className='mc_bodyContentTittle'>Best Mix Tapes</h1>
                 <div className='mc_body'>
                     <div className='mc_bodyHeader'>
                         <div>Essencials</div>
