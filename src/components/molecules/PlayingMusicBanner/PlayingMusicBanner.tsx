@@ -11,8 +11,8 @@ const PlayingMusicBanner: FC<Props> = ({ }) => {
                 alt="Playing music"
                 src={img}
                 className='pmb_image' />
-            <h2 className='pmb_title'>Music Playing</h2>
-            <div className='pmb_artist'>Artist</div>
+            <h2 className='pmb_title'>Circles</h2>
+            <div className='pmb_artist'>Mac Miller</div>
         </div>
     )
 };
