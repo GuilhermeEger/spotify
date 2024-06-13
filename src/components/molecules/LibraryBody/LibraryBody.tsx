@@ -36,11 +36,11 @@ const LibraryBody: FC<Props> = ({ }) => {
         const backEndItems: LibraryItems[] = [
             { tittle: "LinkingPark", info: "Some info here", imgSrc: linkingPark },
             { tittle: "MacMiller", info: "Some info here", imgSrc: macMiller },
-            { tittle: "MichaelJackson", info: "Some info here", imgSrc: michaelJackson },
-            { tittle: "Tihanna", info: "Some info here", imgSrc: rihanna },
+            { tittle: "Michael Jackson", info: "Some info here", imgSrc: michaelJackson },
+            { tittle: "Rihanna", info: "Some info here", imgSrc: rihanna },
             { tittle: "Podcast", info: "Some info here", imgSrc: podcast },
             { tittle: "LinkinPark", info: "Some info here", imgSrc: linkinPark2 },
-            { tittle: "MichaelJackson", info: "Some info here", imgSrc: michaelJackson2 }]
+            { tittle: "Michael Jackson", info: "Some info here", imgSrc: michaelJackson2 }]
 
         setLibraryItems(backEndItems);
     }

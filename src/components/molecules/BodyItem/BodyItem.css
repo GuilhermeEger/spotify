@@ -1,12 +1,11 @@
 .bi_image {
-    width: 200px;
-    height: 200px;
+    width: 100%;
     background-color: bisque;
     border-radius: 10px;
 }
 
 .bi_main {
-    width: 200px;
+    width: 100%;
     display: grid;
     gap: 6px;
 }

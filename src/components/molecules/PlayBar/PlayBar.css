@@ -1,9 +1,22 @@
 .playBar {
     height: 100%;
-    height: 60px;
+    height: 100px;
     background-color: black;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex
+}
+
+.pb_musicInfo {
+    width: 25vw;
+}
+
+.pb_actions {
+    width: 25vw;
+}
+
+.pb_playBar {
+    width: 50vw;
 }
