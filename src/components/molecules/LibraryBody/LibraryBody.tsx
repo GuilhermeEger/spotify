@@ -24,7 +24,7 @@ interface LibraryItems {
 
 const LibraryBody: FC<Props> = ({ }) => {
 
-    const [libraryItems, setLibraryItems] = useState<LibraryItems[]>([{}]);
+    const [libraryItems, setLibraryItems] = useState<LibraryItems[]>([]);
 
     useEffect(() => {
         //get from back
@@ -53,7 +53,7 @@ const LibraryBody: FC<Props> = ({ }) => {
         <div className='ml_itemsBody'>
 
             {libraryItems.map(item => {
-                return <LibraryItem imgSrc={item.imgSrc} tittle={item.tittle} info={item.info} />
+                return <LibraryItem key={item.tittle} imgSrc={item.imgSrc} tittle={item.tittle} info={item.info} />
             })}
 
         </div>

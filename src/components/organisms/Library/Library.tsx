@@ -26,7 +26,7 @@ const Library: FC<Props> = ({ }) => {
             <div className='libraryItemsMap'>
                 {libraryItens.map(item => {
                     return (
-                        <div className='libraryItem'>{item.label}</div>
+                        <div key={item.label} className='libraryItem'>{item.label}</div>
                     )
                 })}
             </div>

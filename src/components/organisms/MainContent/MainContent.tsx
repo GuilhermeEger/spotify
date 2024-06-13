@@ -88,7 +88,7 @@ const MainContent: FC<Props> = ({ }) => {
                     <div className='mc_bodyItemsMap'>
                         {BodyItems?.map(item => {
                             return (
-                                <BodyItem imgSrc={item.imgSrc} title={item.title} subtitle={item.subtitle} />
+                                <BodyItem key={item.title} imgSrc={item.imgSrc} title={item.title} subtitle={item.subtitle} />
                             )
                         })}
                     </div>
