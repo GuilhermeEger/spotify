@@ -1,4 +1,4 @@
-"use content"
+"use client"
 
 import { FC, useEffect, useState } from 'react';
 import "./LibraryBody.css";

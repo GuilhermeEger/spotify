@@ -35,18 +35,37 @@
 }
 
 .mc_mainWrap {
-    padding-top: 240px;
+    padding-top: 210px;
     z-index: 2;
     position: inherit;
     height: 800px;
     overflow-x: auto;
 }
 
-.mc_bodyContent {
-
-}
 
 .mc_body {
     background: #121212;
-    height: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.mc_bodyContentTittle {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.mc_bodyHeader {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.bodyItemsMap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }

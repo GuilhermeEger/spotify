@@ -9,6 +9,9 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { MdNotifications } from "react-icons/md";
 import { MdGroups } from "react-icons/md";
 import { MdOutlinePerson } from "react-icons/md";
+import { MdClose } from "react-icons/md";
+import { MdMoreHoriz } from "react-icons/md";
+
 
 
 type IconMap = {
@@ -26,7 +29,9 @@ const iconMap: IconMap = {
     forwardArrowIos: <MdArrowForwardIos />,
     notifications: <MdNotifications />,
     groups: <MdGroups />,
-    person: <MdOutlinePerson />
+    person: <MdOutlinePerson />,
+    close: <MdClose />,
+    moreHorizontal: <MdMoreHoriz />
 }
 
 export default iconMap;
