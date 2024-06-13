@@ -4,7 +4,11 @@ import { MdLibraryMusic } from "react-icons/md";
 import { MdAdd } from "react-icons/md";
 import { MdArrowForward } from "react-icons/md";
 import { MdOutlineList } from "react-icons/md";
-
+import { MdArrowBackIos } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
+import { MdNotifications } from "react-icons/md";
+import { MdGroups } from "react-icons/md";
+import { MdOutlinePerson } from "react-icons/md";
 
 
 type IconMap = {
@@ -17,7 +21,12 @@ const iconMap: IconMap = {
     library: <MdLibraryMusic />,
     add: <MdAdd />,
     forwardArrow: <MdArrowForward />,
-    list: <MdOutlineList />
+    list: <MdOutlineList />,
+    backArrowIos: <MdArrowBackIos />,
+    forwardArrowIos: <MdArrowForwardIos />,
+    notifications: <MdNotifications />,
+    groups: <MdGroups />,
+    person: <MdOutlinePerson />
 }
 
 export default iconMap;

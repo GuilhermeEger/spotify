@@ -1,0 +1,52 @@
+.mc_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    right: 0;
+    z-index: 2;
+}
+
+.mc_headerArrows {
+    display: flex;
+}
+
+.mc_actions {
+    display: flex;
+}
+
+.mc_actionIcon {
+    padding: 5px;
+}
+
+.mc_image {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+}
+
+.mc_mainWrap {
+    padding-top: 240px;
+    z-index: 2;
+    position: inherit;
+    height: 800px;
+    overflow-x: auto;
+}
+
+.mc_bodyContent {
+
+}
+
+.mc_body {
+    background: #121212;
+    height: 1000px;
+}
