@@ -10,7 +10,7 @@ const MenuItem: FC<Props> = ({ iconName, label }) => {
     return (
         <div className='menuBody'>
             <Icon name={iconName} />
-            <div>{label}</div>
+            <div className='menuLabel'>{label}</div>
         </div>)
 };
 export default MenuItem;

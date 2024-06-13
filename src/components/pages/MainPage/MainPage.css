@@ -28,6 +28,7 @@
     background-color: #121212;
     border-radius: 7px;
     padding: 20px;
+    min-width: 280px
 }
 
 .mainMenu{
@@ -41,8 +42,20 @@
 
 .library {
     background-color: #121212;
-    width: 25vw;
     height: 100%;
     border-radius: 7px;
     padding: 20px;
+    width: 25vw;
+}
+
+
+@media (width <= 1250px) {
+    
+    .libraryItemsMain, .ml_header, .libraryHeaderActions, .li_labelWrap, .menuLabel  {
+        display: none;
+    }
+
+    .LeftSet, .library {
+    width: 15vw;
+    }
 }
