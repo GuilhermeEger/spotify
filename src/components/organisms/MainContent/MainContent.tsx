@@ -6,11 +6,16 @@ import './MainContent.css';
 import Image from 'next/image';
 import music1 from '../../../../public/music1.jpg';
 import BodyItem from '@/components/molecules/BodyItem/BodyItem';
-import { useSearchParams } from 'next/navigation';
+import { StaticImageData } from "next/image"
+import linkingPark from '../../../../public/linkinPark.jpg';
+import macMiller from '../../../../public/macMiller.png';
+import michaelJackson from '../../../../public/michaelJackson.jpg';
+import rihanna from '../../../../public/rihanna.jpg';
 
 interface bodyItems {
     title: string,
-    subtitle: string
+    subtitle: string,
+    imgSrc: string | StaticImageData
 }
 
 type Props = {};
@@ -29,16 +34,20 @@ const MainContent: FC<Props> = ({ }) => {
         const bodyItems: bodyItems[] = [
             {
                 title: "Mixtape 1",
-                subtitle: "to relax lintening"
+                subtitle: "to relax lintening",
+                imgSrc: linkingPark
             }, {
                 title: "Mixtape 2",
-                subtitle: "Mixtape for run"
+                subtitle: "Mixtape for run",
+                imgSrc: macMiller
             }, {
                 title: "Mixtape 3",
-                subtitle: "Australian best musics"
+                subtitle: "Australian best musics",
+                imgSrc: rihanna
             }, {
                 title: "Mixtape 4",
-                subtitle: "Musics to relax"
+                subtitle: "Musics to relax",
+                imgSrc: michaelJackson
             },]
 
         setBodyItems(bodyItems);
@@ -79,7 +88,7 @@ const MainContent: FC<Props> = ({ }) => {
                     <div className='mc_bodyItemsMap'>
                         {BodyItems?.map(item => {
                             return (
-                                <BodyItem title={item.title} subtitle={item.subtitle} />
+                                <BodyItem imgSrc={item.imgSrc} title={item.title} subtitle={item.subtitle} />
                             )
                         })}
                     </div>

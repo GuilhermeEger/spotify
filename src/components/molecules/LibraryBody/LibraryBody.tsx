@@ -2,15 +2,24 @@
 
 import { FC, useEffect, useState } from 'react';
 import "./LibraryBody.css";
+import { StaticImageData } from "next/image"
 import Icon from '@/components/atoms/Icon/Icon';
 import ButtonIcon from '@/components/atoms/ButtonIcon/ButtonIcon';
 import LibraryItem from '@/components/atoms/LibraryItem/LibraryItem';
+import linkingPark from '../../../../public/linkinPark.jpg';
+import macMiller from '../../../../public/macMiller.png';
+import michaelJackson from '../../../../public/michaelJackson.jpg';
+import rihanna from '../../../../public/rihanna.jpg';
+import podcast from '../../../../public/podcast.jpg';
+import linkinPark2 from '../../../../public/linkinPark2.jpg'
+import michaelJackson2 from '../../../../public/michaelJackson2.jpg'
 
 type Props = {};
 
 interface LibraryItems {
     tittle: string,
-    info: string
+    info: string,
+    imgSrc: string | StaticImageData
 }
 
 const LibraryBody: FC<Props> = ({ }) => {
@@ -25,13 +34,13 @@ const LibraryBody: FC<Props> = ({ }) => {
     function getItems() {
 
         const backEndItems: LibraryItems[] = [
-            { tittle: "Album 1", info: "Some info here" },
-            { tittle: "Album 2", info: "Some info here" },
-            { tittle: "Album 3", info: "Some info here" },
-            { tittle: "Album 4", info: "Some info here" },
-            { tittle: "Album 5", info: "Some info here" },
-            { tittle: "Album 6", info: "Some info here" },
-            { tittle: "Album 7", info: "Some info here" }]
+            { tittle: "LinkingPark", info: "Some info here", imgSrc: linkingPark },
+            { tittle: "MacMiller", info: "Some info here", imgSrc: macMiller },
+            { tittle: "MichaelJackson", info: "Some info here", imgSrc: michaelJackson },
+            { tittle: "Tihanna", info: "Some info here", imgSrc: rihanna },
+            { tittle: "Podcast", info: "Some info here", imgSrc: podcast },
+            { tittle: "LinkinPark", info: "Some info here", imgSrc: linkinPark2 },
+            { tittle: "MichaelJackson", info: "Some info here", imgSrc: michaelJackson2 }]
 
         setLibraryItems(backEndItems);
     }
@@ -44,7 +53,7 @@ const LibraryBody: FC<Props> = ({ }) => {
         <div className='ml_itemsBody'>
 
             {libraryItems.map(item => {
-                return <LibraryItem tittle={item.tittle} info={item.info} />
+                return <LibraryItem imgSrc={item.imgSrc} tittle={item.tittle} info={item.info} />
             })}
 
         </div>
