@@ -1,3 +1,5 @@
+"use client"
+
 import { FC } from 'react';
 import "./ButtonIcon.css";
 import Icon from '../Icon/Icon';
